@@ -136,9 +136,6 @@ def binary(node):
 
 
 def main():
-    if len(sys.argv) < 4:
-        print("Please insert: zeros ones mode")
-        sys.exit(1)
 
     zeros = int(sys.argv[1])
     ones = int(sys.argv[2])
